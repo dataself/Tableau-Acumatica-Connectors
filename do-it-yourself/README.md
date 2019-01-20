@@ -16,7 +16,7 @@ System requirements: Acumatica v2018 R2 and Tableau Desktop 2018.3 running on Wi
 ### 3. Possibilities and limitations:
 - To combine data from two of more GIs into Tableau, you might use GI object linking or Tableau table linking and unions. Please search online documentation for instructions. 
 - Feel free to explore this GitHub repository's folders that have preconfigured Tableau data sources (.tds) and repoorts (.tbw).
-- You might want to publish your Tableau workbooks to Tableau Online (https://www.tableau.com/products/online/request-trial). This will allow you to expose your Tableau reports to other users via web browsers and mobile device apps. 
+- You might want to publish your Tableau workbooks to Tableau Online (https://www.tableau.com/products/online/request-trial). This will allow you to expose your Tableau reports to other users via web browsers and mobile device apps. This will also allow you to insert Tableau Online widgets inside of Acumatica built-in dashboards. 
 - Tableau establishes a direct connection to Acumatica. This connection can retrieve data in real-time or via Tableau extract refresh. 
 - Retrieving data via OData protocol can be very slow (average of a few thousand records every 10 seconds).
 - There are vendors like DataSelf Corp that have optimized the Tableau and Acumatica integration. See below for details.<br/><br/> 
