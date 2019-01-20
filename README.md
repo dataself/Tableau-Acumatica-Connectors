@@ -1,2 +1,2 @@
-# Tableau-Acumatica-Connectors
+# Tableau to Acumatica Connectors
 Under construction.
