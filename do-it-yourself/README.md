@@ -18,5 +18,8 @@ System requirements: Acumatica v2018 R2 and Tableau Desktop 2018.3 running on Wi
 - Feel free to explore this GitHub repository's folders that have preconfigured Tableau data sources (.tds) and repoorts (.tbw).
 - You might want to publish your Tableau workbooks to Tableau Online (https://www.tableau.com/products/online/request-trial). This will allow you to expose your Tableau reports to other users via web browsers and mobile device apps. 
 - Tableau establishes a direct connection to Acumatica. This connection can retrieve data in real-time or via Tableau extract refresh. 
-- Retrieving data via OData protocol can be very slow (average of a few thousand records every 10 seconds). 
-- Contact Tableau and Acumatica partners like DataSelf Corp (https://dataself.com) to learn how to maximize your investment and expedite ROI in Tableau and Acumatica. 
+- Retrieving data via OData protocol can be very slow (average of a few thousand records every 10 seconds).<br/><br/> 
+### 4. Further support and assistance:
+- Tableau support: https://www.tableau.com/support
+- Acumatica support: https://www.acumatica.com/acumatica-service-offerings/
+- DataSelf Corp support: https://dataself.com/contact/ and support@dataself.com. DataSelf Corp is a Tableau and Acumatica certified partner which can assist you in maximizing and expediting your return-on-investment in Tableau and Acumatica. 
