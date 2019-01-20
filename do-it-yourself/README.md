@@ -1,4 +1,4 @@
-# Building a Tableau connector to Acumatica from Scratch
+# Connecting Tableau to Acumatica
 The following explains how one can import data from Acumatica Generic Inquires (GIs) into Tableau Desktop. As an example, the procedure will import AR-Invoice and Memos data into Tableau. <br/><br/>
 System requirements: Acumatica v2018 R2 and Tableau Desktop 2018.3 running on Windows or Mac. However, these instructions are the same (or very similar) to other Acumatica and Tableau versions. <br/><br/>
 ### 1. Setting up Acumatica to render data to external applications like Tableau: 
