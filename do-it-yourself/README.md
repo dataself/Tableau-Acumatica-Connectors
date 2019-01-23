@@ -6,7 +6,7 @@ System requirements: Acumatica v2018 R2 and Tableau Desktop 2018.3 running on Wi
 - Click the search icon in the Inquiry Title box, find and double-click on "AR-Invoices and Memos".
 - Be sure the "Expose via OData" checkbox is checked. If not, check it and click the Save icon. 
 - Repeat the steps above for other GIs that you might want to import data into Tableau.
-- Important: Find out with your system administrator the OData Feed URL to your Acumatica site. For instance, for an Acumatica portal https://abcorp.acumatica.com, the OData Feed URL might be something like https://abcorp.acumatica.com/odata/abcorp.<br/><br/>
+- Important: Find out from your system administrator the OData Feed URL to your Acumatica site. For instance, for an Acumatica portal https://abcorp.acumatica.com, the OData Feed URL might be something like https://abcorp.acumatica.com/odata/abcorp.<br/><br/>
 ### 2. Setting up Tableau Desktop to import data from Acumatica:
 - Installing Tableau Desktop: Go to https://www.tableau.com/support/releases and select a Tableau Desktop version to download (we recommend downloading the latest version). Download and run the Tableau installer, follow the prompts to complete the installation. You'll need admin rights to the computer where you're installing Tableau. 
 - Run Tableau Desktop, on the left panel, click To a Server > More... > OData.
