@@ -16,7 +16,7 @@ System requirements: Acumatica v2018 R2 and Tableau Desktop 2018.3 running on Wi
 - On the OData prompt, fill out the Server (Acumatica OData Feed URL - see the last step in section 1 above) and add the name of the first GI using the following format: https://abcorp.acumatica.com/odata/abcorp/AR-Invoices%20and%20Memos/  Please note that a forward slash was added before and after the the GI name.  Also note that spaces have been replaced by "%20"
 - Select Authentication = Username and Password, enter your credentials, and click Sign In. It might take several seconds for Tableau to validate your credentials. 
 - You should now see a list of field names from your GI listed in Tableau.
-- Click the Sheet 1 tab at the bottom of the page. This will trigger the data import process from Acumatica which might take a while depending on the size of GI's dataset. At the end of this process, you'll have a snapshot of your GI's data extracted into Tableau. 
+- Click the Sheet 1 tab at the bottom of the page. This will trigger the data import process from Acumatica which might take a while depending on the size of GI's dataset. At the end of this process, you'll have a snapshot of your GI's data, extracted into Tableau. 
 - You'll now see a blank Sheet 1 with your GI information on the left Data panel.
 - Your Tableau connection to Acumatica is all set. You can now click File > Save to save a Tableau workbook for future use.
 - To take a new snapshot of your data, just hit F5 inside of Tableau Desktop. 
