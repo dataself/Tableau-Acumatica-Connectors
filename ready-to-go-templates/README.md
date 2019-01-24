@@ -15,7 +15,7 @@ System requirements: Acumatica v2018 R2 and Tableau Desktop 2018.3 running on Wi
 ### 2. Using ready-to-go Tableau templates to import data from Acumatica:
 - Download a Tableau workbook (ex.: AR-Invoices and Memos.twb) from the list at the top of this page and double-click the downloaded file. This will launch Tableau Desktop. 
 - Click Cancel since Tableau will try to connect to an Acumatica sample site used to build the templates. 
-- Click Edit Connection, and in the OData Server: box, replace "http://localhost/acumaticatest1/odata/" with the OData Feed URL that you collected in step 1, keeping the name of the GI on the end of the new URL you are creating (ex.: https://abcorp.acumatica.com/odata/abcorp/AR-Invoices and Memos).
+- Click Edit Connection, and in the OData Server: box, replace "http://localhost/acumaticatest1/odata/" with the OData Feed URL that you collected in step 1, keeping the name of the GI on the end of the new URL you are creating (ex.: https://abcorp.acumatica.com/odata/abcorp/AR-Invoices%20and%20Memos).
 - Enter your Acumatica Username and Password and Save. This will validate that your credentials have access to your Acumatica data. 
 - Click the other tabs at the bottom to view sample reports and dashboards. The first tab you visit will trigger the data import process from Acumatica which might take a while depending on the size of GI's dataset. Click the other tabs to view the sample reports and dashboards.
 - To refresh the data from Acumatica again, click F5. 
@@ -27,6 +27,7 @@ System requirements: Acumatica v2018 R2 and Tableau Desktop 2018.3 running on Wi
 - You might also want to explore publishing your Tableau workbooks to Tableau Server such as Tableau Online (https://www.tableau.com/products/online/request-trial). This will allow you to:
   - Expose your Tableau reports to other users via web browsers and mobile device apps
   - Insert your Tableau reports and dashboards directly inside Acumatica dashboards.
+- To publish to an existing Tableau Server, click on "Server" in the top bar and select Publish Workbook.  When prompted for your Tableau Server information, provide it, then select which project you would like it saved in, enter a name and click Publish. 
 - There are vendors like DataSelf Corp that have optimized the Tableau and Acumatica integration to overcome many of the OData protocol and Tableau limitations. See below for details.
 
 ### 4. Further support and assistance:
