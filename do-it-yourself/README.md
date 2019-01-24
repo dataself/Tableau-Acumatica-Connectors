@@ -29,6 +29,7 @@ System requirements: Acumatica v2018 R2 and Tableau Desktop 2018.3 running on Wi
 - You might also want to explore publishing your Tableau workbooks to Tableau Server such as Tableau Online (https://www.tableau.com/products/online/request-trial). This will allow you to:
   - Expose your Tableau reports to other users via web browsers and mobile device apps
   - Insert your Tableau reports and dashboards directly inside Acumatica dashboards
+- To publish to an existing Tableau Server, click on "Server" in the top bar and select Publish Workbook.  When prompted for your Tableau Server information, provide it, then select which project you would like it saved in, enter a name and click Publish. 
 - There are vendors like DataSelf Corp that have optimized the Tableau and Acumatica integration to overcome many of the OData protocol and Tableau limitations. See below for details. <br/><br/>
 ### 4. Further support and assistance:
 - Tableau support: https://www.tableau.com/support
