@@ -11,15 +11,20 @@ System requirements: Acumatica v2018 R2 and Tableau Desktop 2018.3 running on Wi
 - Installing Tableau Desktop: Go to https://www.tableau.com/support/releases and select a Tableau Desktop version to download (we recommend downloading the latest version). Download and run the Tableau installer, follow the prompts to complete the installation. You'll need admin rights to the computer where you're installing Tableau. 
 - Run Tableau Desktop.  On the left panel in the "To a Server" section, click More... and then OData.
 - On the OData prompt, fill out the Server (Acumatica OData Feed URL - see the last step in section 1 above) and add the name of the first GI using the following format: https://abcorp.acumatica.com/odata/abcorp/AR-Invoices%20and%20Memos/  Please note that a forward slash was added before and after the the GI name.  Also note that spaces have been replaced by "%20"
-- Select Authentication = Username and Password, enter your credentials, and click Sign In. 
-- Note: as of 01/20/2019, Tableau Desktop will fail to connect to Acumatica using only the Acumatica OData Feed URL.  This is why you will have to add the GI name and repeat this process for each URL.  A support case has been opened with Tableau to remedy this situation.<br/><br/>
+- Select Authentication = Username and Password, enter your credentials, and click Sign In. It might take several seconds for Tableau to validate your credentials. 
+- You should now see a list of field names from your GI listed in Tableau.
+- Click the Sheet 1 tab at the bottom of the page. This will trigger the data import process from Acumatica which might take a while depending on the size of GI's dataset. At the end of this process, you'll have a snapshot of your GIs data extracted into Tableau. 
+- You'll now see a blank Sheet 1 with your GI information on the left Data panel.
+- Your Tableau connection to Acumatica is all set. You can now click File > Save to save a Tableau workbook for future use.
+- To take a new snapshot of your data, just hit F5 inside of Tableau Desktop. 
+- Search for Tableau documentation (see section 4) to learn how you can slice and dice your data and create reports and dashboards.
+<br/><br/>
 ### 3. Possibilities and limitations:
-- To combine data from two of more GIs into Tableau, you might use GI object linking or Tableau table linking and unions. Please search online documentation for instructions. 
-- Feel free to explore this GitHub repository's folders that have preconfigured Tableau data sources (.tds) and reports (.tbw).
-- You may also want to explore publishing your Tableau workbooks to Tableau Online (https://www.tableau.com/products/online/request-trial). This will allow you to expose your Tableau reports to other users via web browsers and mobile device apps. This will also allow you to insert your Tableau reports and dashboards directly inside Acumatica dashboards. 
-- The approach described here establishes a direct connection between Tableau and Acumatica. This connection retrieves data and stores it in a Tableau extract.  This means that it is static until you refresh the tableau extract. 
+- The approach described here establishes a direct connection between Tableau and Acumatica. This connection retrieves data and stores it in a Tableau extract.  Every time you need to get new data from your Acumatica instance, you will need to refresh the extract.
 - Retrieving data via OData protocol can be very slow (average of a few thousand records every 10 seconds).
-- There are vendors like DataSelf Corp that have optimized the Tableau and Acumatica integration to overcome the OData protocol and Tableau limitations. See below for details.<br/><br/> 
+- Retrieving large amounts of data from Acumatica might cause performance issues in your Acumatica site. 
+- You might also want to explore publishing your Tableau workbooks to Tableau Server such as Tableau Online (https://www.tableau.com/products/online/request-trial). This will allow you to expose your Tableau reports to other users via web browsers and mobile device apps, this will also allow you to insert your Tableau reports and dashboards directly inside Acumatica dashboards.
+- There are vendors like DataSelf Corp that have optimized the Tableau and Acumatica integration to overcome many of OData protocol and Tableau limitations. See below for details. <br/><br/>
 ### 4. Further support and assistance:
 - Tableau support: https://www.tableau.com/support
 - Acumatica support: https://www.acumatica.com/acumatica-service-offerings/
