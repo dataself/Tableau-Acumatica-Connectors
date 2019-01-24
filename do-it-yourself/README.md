@@ -26,7 +26,9 @@ System requirements: Acumatica v2018 R2 and Tableau Desktop 2018.3 running on Wi
 - The approach described here establishes a direct connection between Tableau and Acumatica. This connection retrieves data and stores it in a Tableau extract.  Every time you need to get new data from your Acumatica instance, you will need to refresh the extract.
 - Retrieving data via OData protocol can be very slow (average of a few thousand records every 10 seconds).
 - No matter what BI tool you use, retrieving large amounts of data from Acumatica might cause performance issues in your Acumatica site.  So, if this is a concern, you should consider refreshing the extracts outside of normal business hours. 
-- You might also want to explore publishing your Tableau workbooks to Tableau Server such as Tableau Online (https://www.tableau.com/products/online/request-trial). This will allow you to expose your Tableau reports to other users via web browsers and mobile device apps, this will also allow you to insert your Tableau reports and dashboards directly inside Acumatica dashboards.
+- You might also want to explore publishing your Tableau workbooks to Tableau Server such as Tableau Online (https://www.tableau.com/products/online/request-trial). This will allow you to:
+ - Expose your Tableau reports to other users via web browsers and mobile device apps
+ - Insert your Tableau reports and dashboards directly inside Acumatica dashboards
 - There are vendors like DataSelf Corp that have optimized the Tableau and Acumatica integration to overcome many of OData protocol and Tableau limitations. See below for details. <br/><br/>
 ### 4. Further support and assistance:
 - Tableau support: https://www.tableau.com/support
