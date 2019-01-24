@@ -1,3 +1,3 @@
 # Tableau to Acumatica Connectors
-Go to https://github.com/dataself/Tableau-Acumatica-Connectors/tree/master/do-it-yourself for instructions on how to connect Tableau Desktop to Acumatica.<br/><br/>
-Under construction.
+Do it yourself: https://github.com/dataself/Tableau-Acumatica-Connectors/tree/master/do-it-yourself.<br/><br/>
+Use ready-to-go Tableau templates to connect to your Acumatica: https://github.com/dataself/Tableau-Acumatica-Connectors/tree/master/ready-to-go-templates.
