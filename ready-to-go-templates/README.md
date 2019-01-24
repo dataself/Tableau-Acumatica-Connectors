@@ -1,6 +1,8 @@
 # Connecting Tableau to Acumatica - Ready-to-go Templates
 The following explains how one can import data from Acumatica Generic Inquires (GIs) into the predefined Tableau workbooks (*.twb) included above. These workbooks contain preconfigured settings to connect to Acumatica and sample reports and dashboards.
 
+To learn how to create new connectors to Acumatica, visit https://github.com/dataself/Tableau-Acumatica-Connectors/tree/master/do-it-yourself.
+
 System requirements: Acumatica v2018 R2 and Tableau Desktop 2018.3 running on Windows or Mac. However, these instructions are the same (or very similar) to other Acumatica and Tableau versions. Go to https://www.tableau.com/support/releases to download Tableau Desktop.
 
 ### 1. Setting up Acumatica to render data to external applications like Tableau:
