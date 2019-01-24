@@ -24,12 +24,12 @@ System requirements: Acumatica v2018 R2 and Tableau Desktop 2018.3 running on Wi
 
 ### 3. Possibilities and limitations:
 - To combine data from two of more GIs into Tableau, you might use GI object linking or Tableau table linking and unions. Please search online documentation for instructions.
-- You might also want to publish your Tableau workbooks to Tableau Online (https://www.tableau.com/products/online/request-trial). This will allow you to expose your Tableau reports to other users via web browsers and mobile device apps. This will also allow you to insert your Tableau reports and dashboards directly inside Acumatica dashboards.
-- The approach described here establishes a direct connection between Tableau and Acumatica. This connection retrieves data and stores it in a Tableau extract to get new data from your Acumatica instance, you will need to refresh the extract.
+- You might also want to explore publishing your Tableau workbooks to Tableau Online (https://www.tableau.com/products/online/request-trial). This will allow you to expose your Tableau reports to other users via web browsers and mobile device apps. This will also allow you to insert your Tableau reports and dashboards directly inside Acumatica dashboards.
+- The approach described here establishes a direct connection between Tableau and Acumatica. This connection retrieves data and stores it in a Tableau extract.  Every time you need to get new data from your Acumatica instance, you will need to refresh the extract.
 - Retrieving data via OData protocol can be very slow (average of a few thousand records every 10 seconds).
-- There are vendors like DataSelf Corp that have optimized the Tableau and Acumatica integration to overcome the OData protocol limitations. See below for details.
+- There are vendors like DataSelf Corp that have optimized the Tableau and Acumatica integration to overcome the OData protocol and Tableau limitations. See below for details.
 
 ### 4. Further support and assistance:
 - Tableau support: https://www.tableau.com/support
 - Acumatica support: https://www.acumatica.com/acumatica-service-offerings/
-- DataSelf Corp: https://dataself.com/acumatica-bi-analytics/. DataSelf Corp is a Tableau and Acumatica certified partner which can assist you in maximizing and expediting your return-on-investment in Tableau and Acumatica. DataSelf provides dozens of connectors, and 5,000+ reports and dashboards for areas such as sales, inventory, services and financials, so your team can focus on data analysis on day one, instead of building everything from scratch.
+- DataSelf Corp: https://dataself.com/acumatica-bi-analytics/. DataSelf Corp is a Tableau and Acumatica certified partner which can assist you in maximizing and expediting your return-on-investment in Tableau and Acumatica. Out of the box, DataSelf provides dozens of connectors and 5,000+ reports and dashboards for areas such as sales, inventory, services, and financials. This allows your team to focus on data analysis on day one, instead of building everything from scratch.
